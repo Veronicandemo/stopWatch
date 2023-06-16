@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  display: grid;
+  place-items: center;
+  font-family: consolas, monospace;
+  background-color: #b9e9fc;
+}
+.timerbtn {
+  width: 80px;
+  height: 30px;
+  border: 3px solid rgb(230, 255, 253);
+  border-radius: 12px;
+  background-color: #b799ff;
+  cursor: pointer;
+  color: rgb(174, 226, 255);
+  font-weight: 900;
+  text-transform: uppercase;
+}
+.timerbtn:hover {
+  box-shadow: rgb(230, 255, 253, 0.25) 0px 50px 100px -20px,
+    rgb(174, 226, 255, 0.35) 0px 30px 60px -30px,
+    rgb(174, 226, 255, 0.55) 0px -2px 6px 0px inset;
+}
+#timeDispay {
+  font-size: 75px;
+  color: #aee2ff;
+}
+#timeContainer {
+  text-align: center;
+  border: 3px solid #e6fffd;
+  border-radius: 25px;
+  background-color: #b799ff;
+  width: 50%;
+  margin-top: 25%;
+  color: #aee2ff;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  padding-bottom: 2%;
+}
